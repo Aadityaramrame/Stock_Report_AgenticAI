@@ -1,49 +1,70 @@
+<div align="center">
+
 # 📈 AI-Powered Stock Market Analysis Platform
 
-## 🚀 Overview
+### AI-Powered Financial Research & Investment Intelligence System
 
-An intelligent stock market analysis platform that combines Generative AI, Retrieval-Augmented Generation (RAG), financial data analysis, and multimodal capabilities to help investors make informed decisions.
+<p>
+  <img src="https://img.shields.io/badge/Python-3.10+-blue" />
+  <img src="https://img.shields.io/badge/FastAPI-Backend-green" />
+  <img src="https://img.shields.io/badge/LangChain-RAG-orange" />
+  <img src="https://img.shields.io/badge/LangGraph-Agents-red" />
+  <img src="https://img.shields.io/badge/PostgreSQL-Database-blue" />
+  <img src="https://img.shields.io/badge/VectorDB-ChromaDB-purple" />
+</p>
 
-The system enables users to analyze stocks using natural language queries, financial reports, market news, and stock chart images. By integrating Large Language Models (LLMs) with real-time financial data and company documents, the platform provides comprehensive investment insights, risk assessments, and research reports.
+<p>
+  <strong>Generative AI • RAG • Multi-Agent Systems • Financial Analysis • Computer Vision</strong>
+</p>
+
+</div>
 
 ---
 
-## 🎯 Key Features
+## 🚀 Overview
+
+An intelligent stock market analysis platform that combines Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Agentic AI, financial data analysis, and multimodal reasoning to generate comprehensive investment insights.
+
+The platform enables users to analyze stocks through natural language queries, annual reports, financial statements, market news, and stock chart images while leveraging AI agents for research, technical analysis, risk assessment, and report generation.
+
+---
+
+## 🎯 Features
 
 ### 📊 Financial Analysis
 
-* Stock performance analysis
-* Fundamental analysis
-* Technical indicator evaluation
-* Risk assessment and market sentiment analysis
-* Comparative company analysis
+* Fundamental Analysis
+* Technical Analysis
+* Risk Assessment
+* Comparative Stock Evaluation
+* Earnings Report Analysis
 
-### 🤖 AI-Powered Insights
+### 🤖 AI-Powered Intelligence
 
-* Natural language stock queries
-* Financial report summarization
-* Earnings report analysis
-* Automated investment research reports
-* Explainable AI-generated recommendations
+* Natural Language Stock Queries
+* Automated Research Reports
+* Financial Report Summarization
+* Market Sentiment Analysis
+* Explainable AI Insights
 
-### 📚 RAG-Based Knowledge System
+### 📚 RAG Pipeline
 
-* Retrieval-Augmented Generation (RAG)
-* Semantic document search
-* Financial document understanding
-* Company annual report analysis
-* Earnings call transcript analysis
+* Semantic Search
+* Financial Document Retrieval
+* Annual Report Analysis
+* Earnings Call Analysis
+* Knowledge Base Integration
 
-### 🖼️ Multimodal Analysis
+### 🖼️ Multimodal AI
 
-* Stock chart image analysis
-* Candlestick pattern recognition
-* Visual trend detection
-* Combined text and image reasoning
+* Stock Chart Image Analysis
+* Candlestick Pattern Detection
+* Trend Recognition
+* Visual Financial Reasoning
 
-### 🧠 Agentic AI Workflow
+### 🧠 Agentic Workflow
 
-* Planning Agent
+* Planner Agent
 * Research Agent
 * Financial Analysis Agent
 * News & Sentiment Agent
@@ -51,75 +72,53 @@ The system enables users to analyze stocks using natural language queries, finan
 
 ---
 
-## 🏗️ System Architecture
+## 🏗️ Architecture
 
 ```text
-User Query / Document / Chart Image
+User Query / PDF / Chart Image
                 │
                 ▼
-        Input Processing Layer
+         Input Processing
                 │
                 ▼
-            LangGraph
+             LangGraph
                 │
       ┌─────────┼─────────┐
       │         │         │
       ▼         ▼         ▼
+
  Research   Financial   Vision
   Agent      Agent      Agent
+
       │         │         │
       └─────────┼─────────┘
                 ▼
-         Report Generator
+
+        Report Generator
                 │
                 ▼
-         Final AI Response
+
+        Final AI Response
 ```
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Frontend
-
-* Angular / React
-* TypeScript
-* Tailwind CSS
-
-### Backend
-
-* FastAPI
-* Python
-* REST APIs
-
-### AI & GenAI
-
-* LangChain
-* LangGraph
-* OpenAI / Gemini APIs
-* Hugging Face Models
-
-### Data Layer
-
-* PostgreSQL
-* Vector Database (ChromaDB / Pinecone)
-* pgvector
-
-### Financial Data Sources
-
-* Yahoo Finance
-* Alpha Vantage
-* Financial APIs
-
-### Deployment
-
-* Docker
-* GitHub Actions
-* Cloud Deployment
+| Category        | Technologies                 |
+| --------------- | ---------------------------- |
+| Frontend        | Angular / React, TypeScript  |
+| Backend         | FastAPI, Python              |
+| AI Frameworks   | LangChain, LangGraph         |
+| LLMs            | OpenAI, Gemini, Hugging Face |
+| Database        | PostgreSQL                   |
+| Vector Database | ChromaDB, Pinecone, pgvector |
+| Deployment      | Docker, GitHub Actions       |
+| Financial Data  | Yahoo Finance, Alpha Vantage |
 
 ---
 
-## 🧩 Core AI Concepts Implemented
+## 🧩 AI Concepts Implemented
 
 * Large Language Models (LLMs)
 * Prompt Engineering
@@ -128,70 +127,61 @@ User Query / Document / Chart Image
 * Embeddings & Semantic Search
 * Vector Databases
 * Tool Calling
-* Agentic AI Workflows
-* Multi-Agent Systems
+* Agentic AI Systems
+* Multi-Agent Workflows
 * Memory Management
 * Financial NLP
 
 ---
 
-## 📂 Project Workflow
+## 🔄 Workflow
 
 1. User submits a stock-related query.
-2. Relevant financial documents and market data are retrieved.
-3. Information is embedded and searched using vector similarity.
-4. Specialized AI agents perform:
+2. Relevant financial documents are retrieved.
+3. Vector similarity search finds relevant context.
+4. AI agents perform:
 
    * Research
-   * Financial analysis
-   * Sentiment analysis
-   * Risk evaluation
-5. Results are combined into a structured investment report.
-6. The final response is generated using an LLM.
+   * Technical Analysis
+   * Risk Assessment
+   * Sentiment Analysis
+5. Results are synthesized into a final report.
+6. The LLM generates an explainable response.
 
 ---
 
 ## 📌 Example Queries
 
-* "Analyze Tata Motors for long-term investment."
-* "Compare Infosys and TCS."
-* "Summarize the latest annual report."
-* "Identify patterns from this stock chart."
-* "What are the major risks associated with this company?"
+```text
+Analyze Tata Motors for long-term investment.
+
+Compare Infosys and TCS.
+
+Summarize Infosys Annual Report 2025.
+
+Identify candlestick patterns from this chart.
+
+What are the major risks associated with HDFC Bank?
+```
 
 ---
 
-## 🔮 Future Enhancements
+## 🔮 Future Roadmap
 
-* Portfolio management assistant
-* Personalized investment recommendations
-* Real-time market monitoring
-* Advanced chart pattern detection
-* Multi-modal financial agents
-* Backtesting and strategy evaluation
-
----
-
-## 📖 Learning Outcomes
-
-This project demonstrates expertise in:
-
-* Generative AI
-* Retrieval-Augmented Generation (RAG)
-* Agentic AI Systems
-* LangChain
-* LangGraph
-* Financial Data Analysis
-* Vector Databases
-* Full-Stack AI Development
-* System Design & Deployment
+* Portfolio Management Assistant
+* Personalized Investment Recommendations
+* Real-Time Market Monitoring
+* Advanced Pattern Recognition
+* Multi-Agent Collaboration
+* Backtesting Engine
+* AI-Powered Trading Insights
 
 ---
 
 ## 👨‍💻 Author
 
-**Aaditya Ramrame**
+### Aaditya Ramrame
 
 AIML Engineer | GenAI Enthusiast | Full-Stack AI Developer
 
-Building intelligent AI systems that combine LLMs, RAG, Agents, and Real-World Applications.
+Building AI systems with LLMs, RAG, LangGraph, Multi-Agent Architectures, and Financial Intelligence.
